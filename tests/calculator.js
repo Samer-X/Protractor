@@ -14,6 +14,6 @@ describe('todo list', function() {
 
         expect(result.getText()).toEqual('5');
 
-        browser.sleep('2000');
+        browser.sleep('1000');
     });
 });
